@@ -1,0 +1,46 @@
+body {
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+#canvas {
+	width: 100%;
+}
+
+#outputData{
+	background-color:#ced5d9;
+	padding: 5px;
+}
+
+#scannerBtn{
+	border-radius: 10px;
+	cursor: pointer;
+	outline: unset;
+	border: 2px solid black;
+	margin-top: 1rem;
+}
+
+#scannerBtn:hover path {
+	fill: #ffffff;
+}
+
+#scannerBtn:hover {
+	background-color: #393c3d;
+}
+
+#stopBtn:hover {
+	background-color: #393c3d;
+	color: #ffffff;
+}
+
+#stopBtn{
+	margin-left: auto;
+	border: 1px solid black;
+	padding: 5px 10px;
+}
