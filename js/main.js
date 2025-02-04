@@ -6,11 +6,11 @@ const canvas = canvasElement.getContext("2d");
 const outputData = document.getElementById("outputData");
 
 const openScanning = () => {
-	scannerBtn.hidden = true;
 
 	navigator.mediaDevices
 		.getUserMedia({ video: { facingMode: "environment" } })
 		.then((stream) => {
+			scannerBtn.hidden = true;
 			video.srcObject = stream;
 			video.setAttribute("playsinline", true);
 			video.play();
