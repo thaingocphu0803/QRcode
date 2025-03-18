@@ -1,24 +1,13 @@
-body {
-	max-width: 640px;
-	margin: 0 auto;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 5px;
-}
-
 #canvas {
 	width: 100%;
 }
 
-#outputData{
-	background-color:#ced5d9;
+#outputData {
+	background-color: #ced5d9;
 	padding: 5px;
 }
 
-#scannerBtn{
+#scannerBtn {
 	border-radius: 10px;
 	cursor: pointer;
 	outline: unset;
@@ -39,8 +28,86 @@ body {
 	color: #ffffff;
 }
 
-#stopBtn{
+#stopBtn {
 	margin-left: auto;
 	border: 1px solid black;
 	padding: 5px 10px;
+	cursor: pointer;
+}
+
+#qr_code {
+	font-size: 8px;
+	padding: 20px 0;
+	border: 1px solid black;
+	background-color: #b6c1c2;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.align-item-center {
+	align-items: center;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+.text-center {
+	text-align: center;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+.grid {
+	display: grid;
+}
+
+.grid-col-2 {
+	grid-template-columns: 1fr 1fr;
+}
+
+.gap-10 {
+	gap: 10px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.gap-5 {
+	gap: 5px;
+}
+
+.gap-20 {
+	gap: 20px;
+}
+
+.btn {
+	padding: 5px 10px;
+	font-size: 16px;
+}
+.form-input {
+	width: 350px;
+	padding: 10px;
+	font-size: 16px;
 }

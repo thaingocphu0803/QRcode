@@ -1,0 +1,8 @@
+{
+	"liveServer.settings.https": {
+		"enable": true,
+		"cert": "C:/Users/KVN/https/localhost.pem", //link to the *.pem
+		"key": "C:/Users/KVN/https/localhost.key", //link to the *.key
+		"passphrase": "123123" //PEM pass phrase
+	}
+}
